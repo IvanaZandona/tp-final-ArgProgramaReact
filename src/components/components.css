@@ -1,0 +1,115 @@
+a {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(66, 117, 237);
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #bfdef2;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 #405f9d;
+    transition: box-shadow 0.20s;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+a:hover {
+    box-shadow: 0 0 20px 0 #273778;
+}
+ul,
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+}
+p{
+    font-size: 14px;
+}
+.containerListaTareasAgregadas p{
+    width: 340px;
+    margin: 8px auto;
+    font-size: 16px;
+    text-align: left;
+}
+.containerTaskList{
+    margin: 18px 0 0 0;
+}
+.containerTaskForm{
+    width: 550px;
+    padding: 3%;
+    border: 1px solid #97c2f0;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 #45609b;
+    transition: box-shadow 0.20s;
+}
+.containerTaskForm:hover{
+    box-shadow: 0 0 18px 0 #21345d;
+}
+
+button {
+    color: #e8f3ff;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #151515;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #64afff;
+}
+.button2{
+    font-size: 14px;
+    padding: 0.5em 1em;
+    margin: 0 0 0 8px;
+}
+
+select {
+    width: 200px;
+    height: 32px;
+    margin: 0 8px 0 0;
+    color: #e8f3ff;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #528ece;
+    transition: background-color 0.18s;
+}
+select:hover{
+    background-color: #181717;
+}
+option{
+    color: #cfe0f0;
+    height: 25px;
+}
+
+.inputTarea {
+    width: 345px;
+    height: 20px;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #528ece;
+    border-radius: 8px;
+    padding: 2%;
+    transition: background-color 0.18s;
+}
+.inputTarea:hover{
+    background-color: #181717;
+}
